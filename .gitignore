@@ -1,0 +1,21 @@
+
+.ipynb_checkpoints/
+
+runs/
+
+FirstTrain/
+
+Datasets/Dataset1/
+
+yolov8l-cls.pt
+
+yolov8n.pt
+
+Training/
+
+Datasets/IndividualCollections/*/
+Datasets/With Secchi/_Master/
+
+Datasets/With Secchi/_Processed/
+
+Datasets/D1Set/
