@@ -9,7 +9,7 @@
 		<h5>Just click on the browse button, and select all of your images (crtl or shift click). Then just wait for the images to process, and a link to download the CSV file will appear when done.</h5>
     </header>
 	<div id="modelDownloadingPopup" style="position:absolute; left:15%; top:9%; width:70%; height:30%; display:hidden; justify-content: center; align-items: center;"> 
-		<p style="background-color:rgba(0,0,0,0.8); box-shadow: 0 0 4vh 4vh rgba(0,0,0,0.8); padding:0.1vh; font-size:2.5vh; text-shadow: .2vh .2vh .2vh black; text-align: center;">Downloading model... <br> Please wait<br>DO NOT SELECT FILES UNTIL THIS MESSAGE IS GONE</p>
+		<p>Downloading model... <br> Please wait<br>DO NOT SELECT FILES UNTIL THIS MESSAGE IS GONE</p>
 	</div>
     <input type="file" id="file-in" accept="image/*" multiple>
     <div id="target"></div>
@@ -264,7 +264,7 @@
 				try {
 					const popup = document.getElementById('modelDownloadingPopup');
 					popup.style.display = 'flex';
-					session = await ort.InferenceSession.create("./model.onnx");
+					session = await ort.InferenceSession.create("https://github.com/YellowTeamRobot/AI_Turbidity_Honors2023-4/releases/download/Model_1.0/model.onnx");
 					popup.style.display = 'none';
 				} catch (e) {
 					console.error("Error creating inference session:", e);
