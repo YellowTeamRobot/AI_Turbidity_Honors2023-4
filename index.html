@@ -291,7 +291,7 @@
 				try {
 					const popup = document.getElementById('modelDownloadingPopup');
 					popup.style.display = 'flex';
-					session = await ort.InferenceSession.create("https://ianrudy.com/temp/turbidity2/model.onnx");
+					session = await ort.InferenceSession.create("https://ianrudy.com/Turbidity/model.onnx");
 					popup.style.display = 'none';
 				} catch (e) {
 					console.error("Error creating inference session:", e);
