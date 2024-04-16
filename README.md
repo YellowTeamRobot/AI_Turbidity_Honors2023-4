@@ -1,6 +1,10 @@
 # Estimating Turbidity with Underwater Photos (Machine Vision Application)
 Repo for my senior honors research project using machine vision to estimate turbidity of underwater images.
 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10982479.svg)](https://doi.org/10.5281/zenodo.10982479)
+
+
 <!---
 <a href="[link](https://github.com/YellowTeamRobot/AI_Turbidity_Honors2023-4/wiki)"><img src="./WebApp/V3/full.webp" /></a>
 -->
