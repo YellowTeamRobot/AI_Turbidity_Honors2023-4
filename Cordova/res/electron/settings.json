@@ -1,0 +1,8 @@
+{
+    "browserWindow": {
+        "width": 800,
+        "height": 1000,
+		"backgroundColor": "#eeeeee",
+		"autoHideMenuBar": "true"
+    }
+}

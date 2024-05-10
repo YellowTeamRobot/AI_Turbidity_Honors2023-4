@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.ianrudy.turbidity" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Turbidivision</name>
+    <description>An app that lets you estimate turbidity from underwater images.</description>
+    <author>
+        Ian Rudy
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+	<icon src="www/img/logo.png" />
+	<platform name="electron">
+		<preference name="ElectronSettingsFilePath" value="res/electron/settings.json" />
+	</platform>
+	<platform name="android">
+		<preference name="AndroidWindowSplashScreenAnimatedIcon" value="www/img/splash.png"/>
+		<preference name="android-minSdkVersion" value="31" />
+	</platform>
+</widget>
+
