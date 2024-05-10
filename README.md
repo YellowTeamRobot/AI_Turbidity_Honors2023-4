@@ -2,7 +2,7 @@
 Repo for my senior honors research project using machine vision to estimate turbidity of underwater images.
 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10982479.svg)](https://doi.org/10.5281/zenodo.10982479)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10982478.svg)](https://doi.org/10.5281/zenodo.10982478)
 
 
 <!---
@@ -19,7 +19,8 @@ Repo for my senior honors research project using machine vision to estimate turb
   [CLICK HERE](https://ianrudy.com/Turbidity/) to launch the WebApp.  
   Alternatively, you can open the latest page under "Deployments", which should redirect you to the live WebApp.
 
-### Local/Standalone
+### Local/Standalone (Web)
+- NOTE: The standalone executables can be found as their own separate release, and downloaded from the release [here](), or from the buttons at the top of the readme.
 - NOTE: Instructions provided work for desktop/laptop computers only (Windows, Mac, Linux). Phones and other devices do not have instructions provided to run the code locally. The WebApp UI was designed to be mobile friendly, and can be used on mobile devices using the Live version. (Or if you know how to emulate a server on your phone)
 
 The WebApp code was made to be a simple static webpage, as such, running (serving) it locally is rather easy. This is especially beneficial if you plan to use it multiple times, as you can avoid downloading the large files more times than is necessary (if caching isn't working), and also allows it to be used without an internet connection (the live/online WebApp only needs an internet connection to load the page at the beginning, if the internet disconnects in the middle of processing images, it will continue to work).
