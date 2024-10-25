@@ -43,7 +43,7 @@ The WebApp code was made to be a simple static webpage, as such, running (servin
 The basic instructions for running the WebApp standalone are as follows.
 1. Download the WebApp code from [HERE](https://github.com/YellowTeamRobot/AI_Turbidity_Honors2023-4/releases/download/v1.0.0/Website.Standalone.zip).
 2. Unzip the .zip folder and put it where you want (make note of where you put the folder).
-3. Download the latest version of Servez for your operating system from <a href="[link](https://github.com/greggman/servez/releases/latest)">HERE</a>.
+3. Download the latest version of Servez for your operating system from [HERE](https://github.com/greggman/servez/releases/latest).
    - exe for windows, AppImage for Linux, universal.dmg for Mac
 5. Install Servez
 6. Launch Servez
