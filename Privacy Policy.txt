@@ -1,3 +1,11 @@
-This application does not collect or store personal data.
+Turbidivision Privacy Policy
+-------------------------
 
-If you installed this application from Google Play, then Google Play might collect some personal data. Please see the privacy policy for Google Play Services here: https://policies.google.com/privacy
+The Turbidivision app does not collect, store, or share any personal data. It functions entirely on your device and does not connect to the internet or transmit any information to external servers.
+
+No user data is collected, used, or shared by the app developer.
+However, please note that your device's operating system or app store (namely Google Play Services https://policies.google.com/privacy) may collect data as part of their normal operation. This is outside the control of the app and is governed by their respective privacy policies.
+
+
+
+Last Updated: July 17th 2025 8:46am EST
